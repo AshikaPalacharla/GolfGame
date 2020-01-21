@@ -10,7 +10,7 @@
 
 @implementation GolfController
 
-@synthesize ball, hole;
+@synthesize ball, hole, wall, sidewall, sidewall2;
 
 - (void)viewDidLoad {
   [super viewDidLoad];
@@ -71,11 +71,31 @@
     self.ball.alpha = 0.2;
   }
    
-  // if ball slows/stops turn off game timer and turn user interaction back on
-  if(fabs(self.ballVelocityX) < stopSpeed && fabs(self.ballVelocityY) < stopSpeed) {
+    if(CGRectIntersectsRect(self.ball.frame, self.wall.frame)) {
+     // simulates friction by reducing velocity
+        self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
+        self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
+    }
+    if(CGRectIntersectsRect(self.ball.frame, self.topwall.frame)) {
+     // simulates friction by reducing velocity
+        self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
+        self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
+      }
+     if(CGRectIntersectsRect(self.ball.frame, self.sidewall.frame)) {
+     // simulates friction by reducing velocity
+        self.ballVelocityX = (-1) * speedDamping * self.ballVelocityX;
+        self.ballVelocityY = (1) * speedDamping * self.ballVelocityY;
+      }
+    if(CGRectIntersectsRect(self.ball.frame, self.sidewall2.frame)) {
+    // simulates friction by reducing velocity
+       self.ballVelocityX = (-1) * speedDamping * self.ballVelocityX;
+       self.ballVelocityY = (1) * speedDamping * self.ballVelocityY;
+     }
+     // if ball slows/stops turn off game timer and turn user interaction back on
+    if(fabs(self.ballVelocityX) < stopSpeed && fabs(self.ballVelocityY) < stopSpeed) {
     [self.gameTimer invalidate];
     [self.view setUserInteractionEnabled:YES];
-  }
-}
-
+      
+    }
+   }
 @end
