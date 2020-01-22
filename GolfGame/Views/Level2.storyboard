@@ -16,17 +16,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u4V-GK-Nzd">
-                                <rect key="frame" x="153" y="32" width="69" height="69"/>
+                                <rect key="frame" x="153" y="78" width="69" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball_7.png" translatesAutoresizingMaskIntoConstraints="NO" id="aBJ-yM-MaZ">
-                                <rect key="frame" x="147" y="577" width="81" height="59"/>
+                                <rect key="frame" x="158" y="582" width="58" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pys-gP-xxR">
-                                <rect key="frame" x="54" y="288" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cartoonbrickwall.png" translatesAutoresizingMaskIntoConstraints="NO" id="62g-NO-jxZ">
+                                <rect key="frame" x="92" y="274" width="191" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X4W-dp-IPp">
+                                <rect key="frame" x="-18" y="0.0" width="25" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.093429543077945709" green="0.3686460554599762" blue="0.074487842619419098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="26y-a7-Upp">
+                                <rect key="frame" x="367" y="0.0" width="21" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.093429543077945709" green="0.3686460554599762" blue="0.074487842619419098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tpy-Ar-6cj">
+                                <rect key="frame" x="-30" y="-40" width="451" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.093429543077945709" green="0.3686460554599762" blue="0.074487842619419098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d9J-Vg-ShC">
+                                <rect key="frame" x="-18" y="657" width="451" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.093429543077945709" green="0.3686460554599762" blue="0.074487842619419098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.093429543077945709" green="0.3686460554599762" blue="0.074487842619419098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -35,6 +55,10 @@
                     <connections>
                         <outlet property="ball" destination="aBJ-yM-MaZ" id="iP2-jG-Gak"/>
                         <outlet property="hole" destination="u4V-GK-Nzd" id="2y4-Cb-m1I"/>
+                        <outlet property="sidewall" destination="X4W-dp-IPp" id="D6f-Np-RHj"/>
+                        <outlet property="sidewall2" destination="26y-a7-Upp" id="1bP-I4-vMi"/>
+                        <outlet property="topwall" destination="d9J-Vg-ShC" id="TLi-m3-aqP"/>
+                        <outlet property="wall" destination="62g-NO-jxZ" id="DzU-Sh-8tZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="anC-dV-rg4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -44,5 +68,6 @@
     </scenes>
     <resources>
         <image name="ball_7.png" width="1538" height="1537"/>
+        <image name="cartoonbrickwall.png" width="960" height="384"/>
     </resources>
 </document>

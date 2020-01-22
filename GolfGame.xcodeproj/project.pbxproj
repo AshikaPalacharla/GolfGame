@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B62D1C8223D130B500B9971C /* Golf-Ball-PNG-Clipart.png in Resources */ = {isa = PBXBuildFile; fileRef = B62D1C8123D130B500B9971C /* Golf-Ball-PNG-Clipart.png */; };
 		B62D1C8423D1350200B9971C /* Level2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D1C8323D1350200B9971C /* Level2.storyboard */; };
+		B635DDF323D9039A00C4E707 /* Untitled drawing.png in Resources */ = {isa = PBXBuildFile; fileRef = B635DDF223D9039A00C4E707 /* Untitled drawing.png */; };
+		B636218323D9058F0076CF5B /* cartoonbrickwall.png in Resources */ = {isa = PBXBuildFile; fileRef = B636218223D9058F0076CF5B /* cartoonbrickwall.png */; };
 		B653AF4623D11B290092D102 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B653AF4523D11B290092D102 /* AppDelegate.m */; };
 		B653AF4923D11B290092D102 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B653AF4823D11B290092D102 /* SceneDelegate.m */; };
 		B653AF4C23D11B290092D102 /* GolfController.m in Sources */ = {isa = PBXBuildFile; fileRef = B653AF4B23D11B290092D102 /* GolfController.m */; };
@@ -19,12 +21,13 @@
 		B653AF5F23D11BE10092D102 /* Level1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B653AF5E23D11BE10092D102 /* Level1.storyboard */; };
 		B653AF6123D121500092D102 /* ball_7.png in Resources */ = {isa = PBXBuildFile; fileRef = B653AF6023D121500092D102 /* ball_7.png */; };
 		B6FF7CEE23D7BCEE0020FE0E /* png-brick-wall-5.png in Resources */ = {isa = PBXBuildFile; fileRef = B6FF7CED23D7BCEE0020FE0E /* png-brick-wall-5.png */; };
-		B6FF7CF223D7BF1F0020FE0E /* 249-2495877_cartoon-log-transparent-background.png in Resources */ = {isa = PBXBuildFile; fileRef = B6FF7CF123D7BF1F0020FE0E /* 249-2495877_cartoon-log-transparent-background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B62D1C8123D130B500B9971C /* Golf-Ball-PNG-Clipart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Golf-Ball-PNG-Clipart.png"; sourceTree = "<group>"; };
 		B62D1C8323D1350200B9971C /* Level2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Level2.storyboard; sourceTree = "<group>"; };
+		B635DDF223D9039A00C4E707 /* Untitled drawing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled drawing.png"; sourceTree = "<group>"; };
+		B636218223D9058F0076CF5B /* cartoonbrickwall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartoonbrickwall.png; sourceTree = "<group>"; };
 		B653AF4123D11B280092D102 /* GolfGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B653AF4423D11B290092D102 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B653AF4523D11B290092D102 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,7 +43,6 @@
 		B653AF5E23D11BE10092D102 /* Level1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Level1.storyboard; sourceTree = "<group>"; };
 		B653AF6023D121500092D102 /* ball_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_7.png; sourceTree = "<group>"; };
 		B6FF7CED23D7BCEE0020FE0E /* png-brick-wall-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "png-brick-wall-5.png"; sourceTree = "<group>"; };
-		B6FF7CF123D7BF1F0020FE0E /* 249-2495877_cartoon-log-transparent-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "249-2495877_cartoon-log-transparent-background.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,8 @@
 				B653AF6023D121500092D102 /* ball_7.png */,
 				B62D1C8123D130B500B9971C /* Golf-Ball-PNG-Clipart.png */,
 				B6FF7CED23D7BCEE0020FE0E /* png-brick-wall-5.png */,
-				B6FF7CF123D7BF1F0020FE0E /* 249-2495877_cartoon-log-transparent-background.png */,
+				B635DDF223D9039A00C4E707 /* Untitled drawing.png */,
+				B636218223D9058F0076CF5B /* cartoonbrickwall.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,9 +167,10 @@
 				B62D1C8223D130B500B9971C /* Golf-Ball-PNG-Clipart.png in Resources */,
 				B6FF7CEE23D7BCEE0020FE0E /* png-brick-wall-5.png in Resources */,
 				B62D1C8423D1350200B9971C /* Level2.storyboard in Resources */,
-				B6FF7CF223D7BF1F0020FE0E /* 249-2495877_cartoon-log-transparent-background.png in Resources */,
+				B635DDF323D9039A00C4E707 /* Untitled drawing.png in Resources */,
 				B653AF5123D11B320092D102 /* Assets.xcassets in Resources */,
 				B653AF4F23D11B290092D102 /* Main.storyboard in Resources */,
+				B636218323D9058F0076CF5B /* cartoonbrickwall.png in Resources */,
 				B653AF6123D121500092D102 /* ball_7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
