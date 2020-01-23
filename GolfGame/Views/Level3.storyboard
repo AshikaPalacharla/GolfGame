@@ -29,28 +29,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.093429543077945709" green="0.3686460554599762" blue="0.074487842619419098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cartoonbrickwall.png" translatesAutoresizingMaskIntoConstraints="NO" id="dWT-Kb-NJ7">
-                                <rect key="frame" x="0.0" y="324" width="216" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cartoonbrickwall.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nvr-qv-Bgr">
-                                <rect key="frame" x="315" y="324" width="216" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cartoonbrickwall.png" translatesAutoresizingMaskIntoConstraints="NO" id="pWF-db-Xjv">
-                                <rect key="frame" x="162" y="486" width="221" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cartoonbrickwall.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hzt-iL-vV3">
-                                <rect key="frame" x="184" y="159" width="216" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cartoonbrickwall.png" translatesAutoresizingMaskIntoConstraints="NO" id="GJ6-C4-rkO">
-                                <rect key="frame" x="-117" y="159" width="216" height="85"/>
+                                <rect key="frame" x="180" y="351" width="216" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EQR-eJ-Pna">
-                                <rect key="frame" x="153" y="52" width="69" height="69"/>
+                                <rect key="frame" x="23" y="29" width="69" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
@@ -64,17 +48,32 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.093429543079999997" green="0.36864605550000001" blue="0.074487842619999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JerryMouse.png" translatesAutoresizingMaskIntoConstraints="NO" id="GJ6-C4-rkO">
+                                <rect key="frame" x="172" y="199" width="277" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tomsmouth.png" translatesAutoresizingMaskIntoConstraints="NO" id="pWF-db-Xjv">
+                                <rect key="frame" x="-43" y="475" width="293" height="347"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cartoonbrickwall.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lxk-Us-AGh">
+                                <rect key="frame" x="-9" y="106" width="216" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.093429543077945709" green="0.3686460554599762" blue="0.074487842619419098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="F19-1v-m8W"/>
                     </view>
                     <connections>
                         <outlet property="ball" destination="4XB-xx-WYq" id="BOn-IO-w2C"/>
+                        <outlet property="bottomwall" destination="PyC-Kj-S1T" id="egd-iz-e8W"/>
                         <outlet property="hole" destination="EQR-eJ-Pna" id="0jn-TI-Exl"/>
-                        <outlet property="sidewall" destination="FGz-LV-rdF" id="G6k-8U-Dcg"/>
+                        <outlet property="portal" destination="pWF-db-Xjv" id="9OX-0D-8DH"/>
+                        <outlet property="portal2" destination="GJ6-C4-rkO" id="vOv-ao-awv"/>
+                        <outlet property="sidewall" destination="Lxk-Us-AGh" id="PxX-tF-PNP"/>
                         <outlet property="sidewall2" destination="GDZ-yS-EOR" id="xDI-qa-eLX"/>
-                        <outlet property="topwall" destination="PyC-Kj-S1T" id="PXd-Pe-uJ6"/>
-                        <outlet property="wall" destination="GJ6-C4-rkO" id="FYN-qC-npG"/>
+                        <outlet property="topwall" destination="gzf-Fk-ZvA" id="xMR-Zg-2um"/>
+                        <outlet property="wall" destination="Nvr-qv-Bgr" id="woe-fz-NE3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HAt-BM-pZS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -83,7 +82,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="JerryMouse.png" width="310" height="294"/>
         <image name="ball_7.png" width="1538" height="1537"/>
         <image name="cartoonbrickwall.png" width="960" height="384"/>
+        <image name="tomsmouth.png" width="600" height="720"/>
     </resources>
 </document>

@@ -10,7 +10,7 @@
 
 @implementation GolfController
 
-@synthesize ball, hole, wall, sidewall, sidewall2;
+@synthesize ball, hole, wall, sidewall, sidewall2, topwall, bottomwall, portal, portal2;
 
 - (void)viewDidLoad {
   [super viewDidLoad];
@@ -81,11 +81,19 @@
         self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
         self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
       }
+    if(CGRectIntersectsRect(self.ball.frame, self.bottomwall.frame)) {
+     // simulates friction by reducing velocity
+        self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
+        self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
+      }
      if(CGRectIntersectsRect(self.ball.frame, self.sidewall.frame)) {
      // simulates friction by reducing velocity
         self.ballVelocityX = (-1) * speedDamping * self.ballVelocityX;
         self.ballVelocityY = (1) * speedDamping * self.ballVelocityY;
       }
+    if (CGRectIntersectsRect(self.ball.frame, self.portal.frame)) {
+       self.ball.center = CGPointMake(self.portal2.center.x, self.portal2.center.y);
+    }
     if(CGRectIntersectsRect(self.ball.frame, self.sidewall2.frame)) {
     // simulates friction by reducing velocity
        self.ballVelocityX = (-1) * speedDamping * self.ballVelocityX;

@@ -50,9 +50,11 @@
                     </view>
                     <connections>
                         <outlet property="ball" destination="uid-b0-6gn" id="xu3-FD-vsZ"/>
+                        <outlet property="bottomwall" destination="CaZ-KR-ASA" id="EQM-T9-qcw"/>
                         <outlet property="hole" destination="w3V-yp-2Dn" id="WGF-Rf-z1T"/>
                         <outlet property="sidewall" destination="hkX-RX-NBU" id="78O-ws-4gL"/>
                         <outlet property="sidewall2" destination="9MB-dY-MUt" id="bEe-ft-CNo"/>
+                        <outlet property="topwall" destination="0aJ-7y-FlF" id="ZdQ-G4-38p"/>
                         <outlet property="wall" destination="CaZ-KR-ASA" id="4Ut-U4-ebe"/>
                     </connections>
                 </viewController>

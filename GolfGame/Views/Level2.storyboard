@@ -54,10 +54,11 @@
                     </view>
                     <connections>
                         <outlet property="ball" destination="aBJ-yM-MaZ" id="iP2-jG-Gak"/>
+                        <outlet property="bottomwall" destination="d9J-Vg-ShC" id="YOZ-6d-ivg"/>
                         <outlet property="hole" destination="u4V-GK-Nzd" id="2y4-Cb-m1I"/>
                         <outlet property="sidewall" destination="X4W-dp-IPp" id="D6f-Np-RHj"/>
                         <outlet property="sidewall2" destination="26y-a7-Upp" id="1bP-I4-vMi"/>
-                        <outlet property="topwall" destination="d9J-Vg-ShC" id="TLi-m3-aqP"/>
+                        <outlet property="topwall" destination="tpy-Ar-6cj" id="CBI-9n-zb3"/>
                         <outlet property="wall" destination="62g-NO-jxZ" id="DzU-Sh-8tZ"/>
                     </connections>
                 </viewController>
