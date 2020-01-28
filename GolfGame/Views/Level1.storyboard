@@ -44,6 +44,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.093429543077945709" green="0.3686460554599762" blue="0.074487842619419098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ldp-RP-s0d">
+                                <rect key="frame" x="116" y="342" width="143" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                <state key="normal" title="Next Level!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hF9-Xz-Dep" kind="show" id="rh0-WJ-s0a"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.093429543077945709" green="0.3686460554599762" blue="0.074487842619419098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="lKc-tH-cpr"/>
@@ -52,6 +64,7 @@
                         <outlet property="ball" destination="uid-b0-6gn" id="xu3-FD-vsZ"/>
                         <outlet property="bottomwall" destination="CaZ-KR-ASA" id="EQM-T9-qcw"/>
                         <outlet property="hole" destination="w3V-yp-2Dn" id="WGF-Rf-z1T"/>
+                        <outlet property="reset" destination="Ldp-RP-s0d" id="u5X-mW-I06"/>
                         <outlet property="sidewall1" destination="hkX-RX-NBU" id="Ne3-Nr-UUu"/>
                         <outlet property="sidewall2" destination="9MB-dY-MUt" id="em2-A0-u6a"/>
                         <outlet property="topwall" destination="0aJ-7y-FlF" id="ZdQ-G4-38p"/>
@@ -60,6 +73,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nd4-6e-zsu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="16.800000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--dos-->
+        <scene sceneID="wAZ-XE-KbI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Level2" referencedIdentifier="dos" id="hF9-Xz-Dep" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="AEM-9T-1p1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3TJ-sq-U28" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="493" y="-41"/>
         </scene>
     </scenes>
     <resources>

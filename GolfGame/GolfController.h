@@ -28,6 +28,9 @@
 @property (strong, nonatomic) IBOutlet UIImageView *portal;
 @property (strong, nonatomic) IBOutlet UIImageView *portal2;
 
+@property (strong, nonatomic) IBOutlet UITextField *win;
+@property (nonatomic, retain) IBOutlet UIButton *reset;
+
 @property (nonatomic) CGPoint firstPoint;
 @property (nonatomic) CGPoint lastPoint;
 @property (nonatomic) float ballVelocityX;

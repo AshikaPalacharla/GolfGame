@@ -22,6 +22,7 @@
 		B653AF5723D11B320092D102 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B653AF5623D11B320092D102 /* main.m */; };
 		B653AF5F23D11BE10092D102 /* Level1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B653AF5E23D11BE10092D102 /* Level1.storyboard */; };
 		B653AF6123D121500092D102 /* ball_7.png in Resources */ = {isa = PBXBuildFile; fileRef = B653AF6023D121500092D102 /* ball_7.png */; };
+		B6582FE023E0F0A800A06C8D /* t42_75.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6582FDF23E0F0A800A06C8D /* t42_75.jpg */; };
 		B6A35CC223DA3BE500FDC754 /* Level3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A35CC123DA3BE500FDC754 /* Level3.storyboard */; };
 		B6A35CC423DA3EFA00FDC754 /* JerryMouse.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A35CC323DA3EFA00FDC754 /* JerryMouse.png */; };
 		B6A35CC623DA3F0300FDC754 /* tomsmouth.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A35CC523DA3F0300FDC754 /* tomsmouth.png */; };
@@ -49,6 +50,7 @@
 		B653AF5623D11B320092D102 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B653AF5E23D11BE10092D102 /* Level1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Level1.storyboard; sourceTree = "<group>"; };
 		B653AF6023D121500092D102 /* ball_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_7.png; sourceTree = "<group>"; };
+		B6582FDF23E0F0A800A06C8D /* t42_75.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = t42_75.jpg; sourceTree = "<group>"; };
 		B6A35CC123DA3BE500FDC754 /* Level3.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Level3.storyboard; sourceTree = "<group>"; };
 		B6A35CC323DA3EFA00FDC754 /* JerryMouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JerryMouse.png; sourceTree = "<group>"; };
 		B6A35CC523DA3F0300FDC754 /* tomsmouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tomsmouth.png; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				B6A35CC323DA3EFA00FDC754 /* JerryMouse.png */,
 				B6A35CC523DA3F0300FDC754 /* tomsmouth.png */,
 				5AAB436823DA5E9A00CD8841 /* purepng.com-tom-and-jerry-happytom-and-jerrytomjerryanimated-seriesin-1940characters-17015286592298g9rb.png */,
+				B6582FDF23E0F0A800A06C8D /* t42_75.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +194,7 @@
 				B636218323D9058F0076CF5B /* cartoonbrickwall.png in Resources */,
 				5AAB436723DA5DA800CD8841 /* LevelSelect.storyboard in Resources */,
 				B6A35CC223DA3BE500FDC754 /* Level3.storyboard in Resources */,
+				B6582FE023E0F0A800A06C8D /* t42_75.jpg in Resources */,
 				B653AF6123D121500092D102 /* ball_7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

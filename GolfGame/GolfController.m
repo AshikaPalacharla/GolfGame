@@ -10,11 +10,12 @@
 
 @implementation GolfController
 
-@synthesize ball, hole, wall1, wall2, wall3, sidewall1, sidewall2, topwall, bottomwall, portal, portal2;
+@synthesize ball, hole, wall1, wall2, wall3, sidewall1, sidewall2, topwall, bottomwall, portal, portal2, win, reset;
 
 - (void)viewDidLoad {
   [super viewDidLoad];
   // changes hole image to be circular
+    reset.hidden = TRUE;
   self.hole.layer.cornerRadius = .5*self.hole.layer.frame.size.height;
   self.hole.layer.masksToBounds = YES;
 }
@@ -62,7 +63,8 @@
    
   // this is the ball move
   self.ball.center = CGPointMake(self.ball.center.x + self.ballVelocityX, self.ball.center.y + self.ballVelocityY);
-   
+    
+    
   // logic to calculate if ball and hole collide
   if (CGRectIntersectsRect(self.ball.frame, self.hole.frame)) {
     [self.gameTimer invalidate];
@@ -70,6 +72,17 @@
     self.ball.center = CGPointMake(self.hole.center.x, self.hole.center.y);
     self.ball.alpha = 0.2;
   }
+    
+    if
+        (CGRectIntersectsRect(self.ball.frame, self.hole.frame)) {
+            [self.gameTimer invalidate];
+            [self.view
+             setUserInteractionEnabled:YES];
+            self.ball.center = CGPointMake(self.hole.center.x, self.hole.center.y);
+            self.ball.alpha = 0.2;
+            win.text = [NSString stringWithFormat:@"Congratulations! You win!"];
+            reset.hidden = FALSE;
+        }
    
     if(CGRectIntersectsRect(self.ball.frame, self.wall1.frame)) {
      // simulates friction by reducing velocity
