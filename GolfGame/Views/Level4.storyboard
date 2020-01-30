@@ -43,14 +43,14 @@
                                 <rect key="frame" x="112" y="409" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry-drawing-droopy-dog-12.png" translatesAutoresizingMaskIntoConstraints="NO" id="ztA-Dl-rlt">
-                                <rect key="frame" x="0.0" y="269" width="214" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0gr-m2-CUA">
                                 <rect key="frame" x="-34" y="0.0" width="42" height="703"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.65715259309999996" green="0.3901084661" blue="0.26663550730000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry-drawing-droopy-dog-12.png" translatesAutoresizingMaskIntoConstraints="NO" id="ztA-Dl-rlt">
+                                <rect key="frame" x="61" y="298" width="139" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.093429543079999997" green="0.36864605550000001" blue="0.074487842619999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
