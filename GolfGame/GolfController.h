@@ -36,5 +36,6 @@
 @property (nonatomic) float ballVelocityX;
 @property (nonatomic) float ballVelocityY;
 @property (strong, nonatomic) NSTimer *gameTimer;
+@property (strong, nonatomic) NSTimer *spikeTimer;
 
 @end

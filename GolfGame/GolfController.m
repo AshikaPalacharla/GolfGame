@@ -51,6 +51,8 @@
    
   // move ball occurs multiple times at this sampling rate, until friction causes ball to stop
   self.gameTimer = [NSTimer scheduledTimerWithTimeInterval:.05 target:self selector:@selector(moveBall) userInfo:nil repeats:YES];
+
+  self.spikeTimer = [NSTimer scheduledTimerWithTimeInterval:.05 target:self selector:@selector(moveBall) userInfo:nil repeats:YES];
 }
 
 /**
