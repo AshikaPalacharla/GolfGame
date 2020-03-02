@@ -10,13 +10,17 @@
         <!--Golf Controller-->
         <scene sceneID="5Z6-PA-TOX">
             <objects>
-                <viewController storyboardIdentifier="tres" id="2lR-9m-VrL" customClass="GolfController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="cuatro" id="2lR-9m-VrL" customClass="GolfController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L29-CL-MDu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball_7.png" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m90-KN-YzJ">
                                 <rect key="frame" x="301" y="589" width="58" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cartoonbrickwall.png" translatesAutoresizingMaskIntoConstraints="NO" id="8aF-Xl-mSC">
+                                <rect key="frame" x="0.0" y="295" width="375" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aqa-uQ-byF">
@@ -43,13 +47,27 @@
                                 <rect key="frame" x="112" y="409" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry-drawing-droopy-dog-12.png" translatesAutoresizingMaskIntoConstraints="NO" id="ztA-Dl-rlt">
+                                <rect key="frame" x="0.0" y="381" width="212" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0gr-m2-CUA">
                                 <rect key="frame" x="-34" y="0.0" width="42" height="703"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.65715259309999996" green="0.3901084661" blue="0.26663550730000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry-drawing-droopy-dog-12.png" translatesAutoresizingMaskIntoConstraints="NO" id="ztA-Dl-rlt">
-                                <rect key="frame" x="61" y="298" width="139" height="107"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="66C-TK-OVs">
+                                <rect key="frame" x="104" y="439" width="67" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wX1-0c-J3b">
+                                <rect key="frame" x="218" y="155" width="67" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry-drawing-droopy-dog-12.png" translatesAutoresizingMaskIntoConstraints="NO" id="R1I-KP-he8">
+                                <rect key="frame" x="189" y="28" width="186" height="285"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -60,6 +78,8 @@
                         <outlet property="ball" destination="m90-KN-YzJ" id="DJX-EP-lP7"/>
                         <outlet property="bottomwall" destination="mVt-8P-RD3" id="ytZ-45-kXS"/>
                         <outlet property="hole" destination="cqp-5y-FKk" id="3bc-ZZ-EqY"/>
+                        <outlet property="portal" destination="66C-TK-OVs" id="tV6-mR-Ffd"/>
+                        <outlet property="portal2" destination="wX1-0c-J3b" id="4SZ-lj-nuc"/>
                         <outlet property="sidewall1" destination="0gr-m2-CUA" id="OcB-rA-DWq"/>
                         <outlet property="sidewall2" destination="aqa-uQ-byF" id="y8q-fp-KaO"/>
                         <outlet property="topwall" destination="bB6-FY-NyF" id="inY-Am-q1m"/>

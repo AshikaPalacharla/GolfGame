@@ -78,6 +78,9 @@
                                 <state key="normal" title="Next Level!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Tbb-xC-EgX" kind="show" id="uyt-cV-Fkc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.093429543077945709" green="0.3686460554599762" blue="0.074487842619419098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -100,10 +103,12 @@
             </objects>
             <point key="canvasLocation" x="-84" y="103.89805097451276"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--cuatro-->
         <scene sceneID="mSD-2P-c5S">
             <objects>
-                <viewControllerPlaceholder id="Tbb-xC-EgX" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Level4" referencedIdentifier="cuatro" id="Tbb-xC-EgX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gD5-eI-kv2"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Orb-6p-OmC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="345" y="17"/>
